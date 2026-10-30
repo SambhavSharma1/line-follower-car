@@ -1,4 +1,4 @@
-# ðŸš— 6-Sensor Autonomous Line Follower Robot
+ 6-Sensor Autonomous Line Follower Robot
 
 An intelligent and responsive autonomous line follower robot built using **Arduino Uno/Nano**, a **6-Channel IR Sensor Array**, and an **L298N Motor Driver**. 
 
@@ -6,7 +6,7 @@ This project implements smooth differential steering, dead-zone prevention, and 
 
 ---
 
-## âœ¨ Highlights & Features
+Highlights & Features
 
 - **6-Channel High-Precision Sensing**: Wide-field line detection using 6 IR sensors for robust tracking.
 - **Differential Speed Steering**: Implements gentle turns by modulating motor speed (PWM) rather than abrupt spinning.
@@ -15,7 +15,7 @@ This project implements smooth differential steering, dead-zone prevention, and 
 
 ---
 
-## ðŸ› ï¸ Hardware Components
+ Hardware Components
 
 | Component | Quantity | Description |
 | :--- | :--- | :--- |
@@ -29,7 +29,7 @@ This project implements smooth differential steering, dead-zone prevention, and 
 
 ---
 
-## ðŸ”Œ Circuit & Pin Mapping
+Circuit & Pin Mapping
 
 ### 1. IR Sensor Module -> Arduino
 | IR Sensor Pin | Arduino Pin | Description |
@@ -59,7 +59,7 @@ This project implements smooth differential steering, dead-zone prevention, and 
 
 ---
 
-## ðŸ§  Control Logic
+ Control Logic
 
 ```mermaid
 flowchart TD
@@ -75,7 +75,7 @@ flowchart TD
 
 ---
 
-## ðŸš€ How to Setup & Flash
+ How to Setup & Flash
 
 1. **Clone the Repository:**
    ```bash
@@ -87,12 +87,12 @@ flowchart TD
 
 ---
 
-## âš™ï¸ Calibration & Tuning
+ Calibration & Tuning
 
 - **Sensor Thresholds:** Calibrate each sensor's potentiometer so the status LED illuminates precisely when transitioning between white surface and black tape.
 - **Motor Speeds:** Modify `BASE_SPEED` (default `140`) and `TURN_SPEED` (default `160`) in the code according to your surface grip and battery voltage.
 
 ---
 
-## ðŸ“„ License
+ License
 This project is open-source and available under the [MIT License](LICENSE).
